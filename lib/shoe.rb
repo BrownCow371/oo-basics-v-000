@@ -8,4 +8,5 @@ class Shoe
 
   def cobble
     puts ""
+  end
 end
