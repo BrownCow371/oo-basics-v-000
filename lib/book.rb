@@ -5,6 +5,11 @@ class Book
     @title = title
   end
 
-  def turn_page
+  def turn_page(pages)
+    counter = pages
+    while counter > 0
+      puts "Flipping the page...wow, you read fast!"
+      counter -=1
+    end
   end
 end
